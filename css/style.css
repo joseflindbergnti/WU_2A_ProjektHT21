@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+body{
+    height: 200vh;
+    background-color:#00203FFF;
+}
+
+header{
+    background:black;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+nav{
+    display: flex;
+    width: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 25px;
+}
+
+#lista{
+    display: flex;
+    justify-content: space-evenly;
+    width: 650px;
+}
+
+.menu{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto Mono', monospace;;
+    font-size: 25px;
+}
+
+.menu:hover{
+    font-weight: bold;
+}
