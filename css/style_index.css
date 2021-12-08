@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}   
+
+#wrapper{
+    background-image:url(../img/startbild.jfif);
+    background-size: 100%;
+    height: 100vh;
+}
+
+#info{
+    height: 200vh;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 290px;
+    grid-template-areas: 
+        "a1"
+        "a2"
+        "fo"
+    ;
+}
+
+header{
+    background:rgba(5, 5, 5, 0.6);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: right; 
+}
+
+nav{
+    display: flex;
+    width: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 25px;
+}
+
+#lista{
+    display: flex;
+    justify-content: space-evenly;
+    width: 650px;
+}
+
+.menu{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto Mono', monospace;;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu:hover{
+    font-weight: bold;
+}
+
+#article1{
+    grid-area: a1;
+    display: flex;
+    justify-content: space-between;
+    background-color: none;
+}
+
+#pasta{
+    width: 50vw;
+    height: 80vh;
+}
+
+#info_pasta{
+    width: 50vw;
+    background-color: rgb(9, 18, 27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_box{
+    width: 90%;
+    height: 80%;
+}
+
+#title_pasta{
+    margin: 1.3rem;
+    background-color: none;
+}
+
+#valkommen{
+    font-size: 1.3rem;
+    color: rgba(255, 255, 255, 0.452);
+}
+
+#skandinavisk{
+    color: white;
+    font-size: 3rem;
+}
+
+#text_pasta{
+    color: rgb(193, 201, 223);
+    font-size: 1.3rem;
+    background-color: none;
+}
+
+#article2{
+    grid-area: a2;
+    display: flex;
+    justify-content: space-between;
+    background-color: none;
+}
+
+#pasta_machine{
+    width: 50vw;
+    height: 80vh;
+}
+
+#info_pasta_machine{
+    width: 50vw;
+    background-color: #00203FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#title_pasta_machine{
+    color: white;
+    font-size: 3rem;
+    margin: 1.5rem;
+    background-color: none;
+}
+
+#text_pasta_machine{
+    color: rgb(193, 201, 223);
+    font-size: 1.3rem;
+    background-color: none;
+}
+
+footer{
+    grid-area: fo;
+    background-image:url(../img/startbild.jfif);
+    background-size: 100%;
+    opacity: 0.2;
+}
+
+#footer_text{
+    font-size: 1rem;
+    color: white;
+}
